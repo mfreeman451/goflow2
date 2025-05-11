@@ -24,7 +24,6 @@ import (
 	// import various transports
 	"github.com/mfreeman451/goflow2/v2/transport"
 	_ "github.com/mfreeman451/goflow2/v2/transport/file"
-	_ "github.com/mfreeman451/goflow2/v2/transport/kafka"
 
 	"github.com/oschwald/geoip2-golang"
 	"google.golang.org/protobuf/encoding/protodelim"
