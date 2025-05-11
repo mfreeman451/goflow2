@@ -1,6 +1,6 @@
 package sflow
 
-import "github.com/netsampler/goflow2/v2/decoders/utils"
+import "github.com/mfreeman451/goflow2/v2/decoders/utils"
 
 type SampledHeader struct {
 	Protocol       uint32 `json:"protocol"`

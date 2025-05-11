@@ -2,7 +2,7 @@ package transport
 
 import "context"
 
-//go:generate mockgen -destination=mock_transport.go -package=transport github.com/netsampler/goflow2/v2/transport TransportDriver,TransportInterface
+//go:generate mockgen -destination=mock_transport.go -package=transport github.com/mfreeman451/goflow2/v2/transport TransportDriver,TransportInterface
 
 type TransportDriver interface {
 	Prepare(ctx context.Context) error                // Prepare driver (e.g., flag registration)

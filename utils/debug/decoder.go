@@ -4,7 +4,7 @@ import (
 	"context"
 	"runtime/debug"
 
-	"github.com/netsampler/goflow2/v2/utils"
+	"github.com/mfreeman451/goflow2/v2/utils"
 )
 
 func PanicDecoderWrapper(wrapped utils.DecoderFunc) utils.DecoderFunc {

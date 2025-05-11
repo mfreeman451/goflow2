@@ -4,7 +4,7 @@ GOOS          ?= linux
 ARCH          ?= $(shell uname -m)
 BUILDINFOSDET ?= 
 
-DOCKER_REPO   ?= netsampler/
+DOCKER_REPO   ?= mfreeman451/
 NAME          := goflow2
 VERSION       ?= $(shell git describe --abbrev --long HEAD)
 ABBREV        ?= $(shell git rev-parse --short HEAD)
@@ -12,12 +12,12 @@ COMMIT        ?= $(shell git rev-parse HEAD)
 TAG           ?= $(shell git describe --tags --abbrev=0 HEAD)
 VERSION_PKG   ?= $(shell echo $(VERSION) | sed 's/^v//g')
 LICENSE       := BSD-3-Clause
-URL           := https://github.com/netsampler/goflow2
-DESCRIPTION   := GoFlow2: Open-Source and Scalable Network Sample Collector
+URL           := https://github.com/mfreeman451/goflow2
+DESCRIPTION   := GoFlow2+: Open-Source and Scalable Network Sample Collector
 DATE          :=  $(shell date +%FT%T%z)
 BUILDINFOS    ?=  ($(DATE)$(BUILDINFOSDET))
 LDFLAGS       ?= '-X main.version=$(VERSION) -X main.buildinfos=$(BUILDINFOS)'
-MAINTAINER    := lspgn@users.noreply.github.com
+MAINTAINER    := mfreeman451@users.noreply.github.com
 DOCKER_BIN    ?= docker
 DOCKER_CMD    ?= build
 DOCKER_SUFFIX ?= 

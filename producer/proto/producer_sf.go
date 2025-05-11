@@ -1,9 +1,9 @@
 package protoproducer
 
 import (
-	"github.com/netsampler/goflow2/v2/decoders/sflow"
-	flowmessage "github.com/netsampler/goflow2/v2/pb"
-	"github.com/netsampler/goflow2/v2/producer"
+	"github.com/mfreeman451/goflow2/v2/decoders/sflow"
+	flowmessage "github.com/mfreeman451/goflow2/v2/pb"
+	"github.com/mfreeman451/goflow2/v2/producer"
 )
 
 func GetSFlowFlowSamples(packet *sflow.Packet) []interface{} {

@@ -14,7 +14,7 @@ import (
 	"google.golang.org/protobuf/encoding/protowire"
 	"google.golang.org/protobuf/proto"
 
-	flowmessage "github.com/netsampler/goflow2/v2/pb"
+	flowmessage "github.com/mfreeman451/goflow2/v2/pb"
 )
 
 // ProtoProducerMessageIf interface to a flow message, used by parsers and tests
