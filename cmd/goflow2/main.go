@@ -31,7 +31,6 @@ import (
 	// various transports
 	"github.com/mfreeman451/goflow2/v2/transport"
 	_ "github.com/mfreeman451/goflow2/v2/transport/file"
-	_ "github.com/mfreeman451/goflow2/v2/transport/kafka"
 	_ "github.com/mfreeman451/goflow2/v2/transport/nats"
 
 	// various producers
@@ -44,7 +43,6 @@ import (
 	"github.com/mfreeman451/goflow2/v2/utils"
 	"github.com/mfreeman451/goflow2/v2/utils/debug"
 
-	"github.com/mfreeman451/goflow2/transport/nats"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"gopkg.in/yaml.v3"
 )
@@ -199,7 +197,7 @@ func main() {
 		}()
 	}
 
-	logger.Info("starting GoFlow2")
+	logger.Info("starting GoFlow2+")
 
 	c := make(chan os.Signal, 1)
 	signal.Notify(c, os.Interrupt, syscall.SIGTERM)
