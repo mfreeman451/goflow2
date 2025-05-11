@@ -1,7 +1,7 @@
 package templates
 
 import (
-	"github.com/netsampler/goflow2/v2/decoders/netflow"
+	"github.com/mfreeman451/goflow2/v2/decoders/netflow"
 )
 
 // Function that Create Template Systems.

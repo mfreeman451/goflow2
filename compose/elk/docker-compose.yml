@@ -7,7 +7,7 @@ services:
       args:
         VERSION: compose
         LDFLAGS: -X main.version=compose
-    image: netsampler/goflow2
+    image: mfreeman451/goflow2
     user: root # because docker-compose mount as root
     ports:
       - '8080:8080'

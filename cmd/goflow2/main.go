@@ -20,29 +20,29 @@ import (
 	"time"
 
 	// decoders
-	"github.com/netsampler/goflow2/v2/decoders/netflow"
+	"github.com/mfreeman451/goflow2/v2/decoders/netflow"
 
 	// various formatters
-	"github.com/netsampler/goflow2/v2/format"
-	_ "github.com/netsampler/goflow2/v2/format/binary"
-	_ "github.com/netsampler/goflow2/v2/format/json"
-	_ "github.com/netsampler/goflow2/v2/format/text"
+	"github.com/mfreeman451/goflow2/v2/format"
+	_ "github.com/mfreeman451/goflow2/v2/format/binary"
+	_ "github.com/mfreeman451/goflow2/v2/format/json"
+	_ "github.com/mfreeman451/goflow2/v2/format/text"
 
 	// various transports
-	"github.com/netsampler/goflow2/v2/transport"
-	_ "github.com/netsampler/goflow2/v2/transport/file"
-	_ "github.com/netsampler/goflow2/v2/transport/kafka"
-	_ "github.com/netsampler/goflow2/v2/transport/nats"
+	"github.com/mfreeman451/goflow2/v2/transport"
+	_ "github.com/mfreeman451/goflow2/v2/transport/file"
+	_ "github.com/mfreeman451/goflow2/v2/transport/kafka"
+	_ "github.com/mfreeman451/goflow2/v2/transport/nats"
 
 	// various producers
-	"github.com/netsampler/goflow2/v2/producer"
-	protoproducer "github.com/netsampler/goflow2/v2/producer/proto"
-	rawproducer "github.com/netsampler/goflow2/v2/producer/raw"
+	"github.com/mfreeman451/goflow2/v2/producer"
+	protoproducer "github.com/mfreeman451/goflow2/v2/producer/proto"
+	rawproducer "github.com/mfreeman451/goflow2/v2/producer/raw"
 
 	// core libraries
-	"github.com/netsampler/goflow2/v2/metrics"
-	"github.com/netsampler/goflow2/v2/utils"
-	"github.com/netsampler/goflow2/v2/utils/debug"
+	"github.com/mfreeman451/goflow2/v2/metrics"
+	"github.com/mfreeman451/goflow2/v2/utils"
+	"github.com/mfreeman451/goflow2/v2/utils/debug"
 
 	"github.com/mfreeman451/goflow2/transport/nats"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

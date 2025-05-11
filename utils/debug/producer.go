@@ -3,7 +3,7 @@ package debug
 import (
 	"runtime/debug"
 
-	"github.com/netsampler/goflow2/v2/producer"
+	"github.com/mfreeman451/goflow2/v2/producer"
 )
 
 type PanicProducerWrapper struct {
