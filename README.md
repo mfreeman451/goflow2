@@ -1,4 +1,4 @@
-di# GoFlow2+
+# GoFlow2+
 
 [![Build Status](https://github.com/mfreeman451/goflow2/workflows/Build/badge.svg)](https://github.com/mfreeman451/goflow2/actions?query=workflow%3ABuild)
 [![Go Reference](https://pkg.go.dev/badge/github.com/mfreeman451/goflow2.svg)](https://pkg.go.dev/github.com/mfreeman451/goflow2)
